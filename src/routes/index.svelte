@@ -4,7 +4,7 @@
 </script>
 
 <header>
-	<img src="" alt="PM Logo" />
+	<img src="/assets/images/logo.webp" alt="PM Logo" />
 	<div class="text-wrapper">
 		<h1>Comunicaciones</h1>
 		<h2>La comunicación constituye y a la vez fluye como la vida.</h2>
