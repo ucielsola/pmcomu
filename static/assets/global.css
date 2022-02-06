@@ -5,6 +5,7 @@
 	font-weight: 400;
 	src: local(''), url('./assets/fonts//matemate-sc-v19-latin-regular.woff2') format('woff2'),
 		url('./assets/fonts//matemate-sc-v19-latin-regular.woff') format('woff');
+	font-display: swap;
 }
 
 /* montserrat-300 - latin */
@@ -14,6 +15,7 @@
 	font-weight: 300;
 	src: local(''), url('./assets/fonts/montserrat/montserrat-v23-latin-300.woff2') format('woff2'),
 		url('./assets/fonts/montserrat/montserrat-v23-latin-300.woff') format('woff');
+	font-display: swap;
 }
 /* montserrat-regular - latin */
 @font-face {
@@ -23,6 +25,7 @@
 	src: local(''),
 		url('./assets/fonts/montserrat/montserrat-v23-latin-regular.woff2') format('woff2'),
 		url('./assets/fonts/montserrat/montserrat-v23-latin-regular.woff') format('woff');
+	font-display: swap;
 }
 /* montserrat-600 - latin */
 @font-face {
@@ -31,6 +34,7 @@
 	font-weight: 600;
 	src: local(''), url('./assets/fonts/montserrat/montserrat-v23-latin-600.woff2') format('woff2'),
 		url('./assets/fonts/montserrat/montserrat-v23-latin-600.woff') format('woff');
+	font-display: swap;
 }
 
 :root {
@@ -38,8 +42,8 @@
 	--secondary-color: #eaf1ef;
 	--highlight: #6d6193;
 
-	--title-fnt: 'Mate SC', serif;
-	--body-fnt: 'Monteserrat', sans-serif;
+	--title-ff: 'Mate SC', serif;
+	--body-ff: 'Monteserrat', sans-serif;
 
 	--border-radius: 7px 7px 7px 7px;
 	--box-shadow: 6px 6px 18px 0px #0000004c;
