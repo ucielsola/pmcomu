@@ -180,4 +180,7 @@
 </footer>
 
 <style>
+    header {
+        background-image: url('/assets/images/header-bg.webp');
+    }
 </style>
