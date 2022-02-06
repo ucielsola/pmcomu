@@ -1,3 +1,8 @@
 :root {
-    --primary-color: #8f8ad1;
+	--primary-color: #8f8ad1;
+	--secondary-color: #eaf1ef;
+	--highlight: #6d6193;
+	
+	--border-radius: 7px 7px 7px 7px;
+	--box-shadow: 6px 6px 18px 0px #0000004c;
 }
