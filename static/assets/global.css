@@ -48,3 +48,7 @@
 	--border-radius: 7px 7px 7px 7px;
 	--box-shadow: 6px 6px 18px 0px #0000004c;
 }
+
+footer {
+	background-color: var(--highlight);
+}

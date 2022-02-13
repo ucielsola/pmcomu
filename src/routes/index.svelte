@@ -1,5 +1,7 @@
 <script>
+	import BottomDivider from '$lib/components/bottomDivider.svelte';
 	import EmaiIcon from '$lib/components/emaiIcon.svelte';
+	import TopDivider from '$lib/components/topDivider.svelte';
 	import WhatsappIcon from '$lib/components/whatsappIcon.svelte';
 </script>
 
@@ -9,6 +11,7 @@
 		<h1>Comunicaciones</h1>
 		<h2>La comunicación constituye y a la vez fluye como la vida.</h2>
 	</div>
+	<BottomDivider />
 </header>
 
 <main>
@@ -27,7 +30,7 @@
 		<img src="/assets/images/img-1.webp" alt="" />
 	</section>
 
-	<section>
+	<section class="bg-primary">
 		<article>
 			<h3>QUIÉNES SOMOS</h3>
 			<h4>
@@ -80,7 +83,7 @@
 			</ul>
 		</article>
 	</section>
-	<section>
+	<section class="bg-primary">
 		<article>
 			<h3>COMUNICACIÓN EMPRESARIAL</h3>
 			<h4>Ayudamos a tu empresa a generar valor sea cual sea el nivel de madurez digital</h4>
@@ -130,7 +133,7 @@
 			</ul>
 		</article>
 	</section>
-	<section>
+	<section class="bg-secondary">
 		<article>
 			<h3>TEAM</h3>
 			<h4>
@@ -147,6 +150,7 @@
 </main>
 
 <footer>
+	<TopDivider />
 	<div>
 		<h3>PM Comunicaciones</h3>
 		<ul>
@@ -162,25 +166,32 @@
 			</li>
 		</ul>
 	</div>
-    <div>
-        <h3>Dejanos tu consulta</h3>
-        <form action="">
-            <div class="f-group">
-                <input type="text" required>
-                <input type="email" required>
-            </div>
-            <div class="f-group">
-                <textarea id="" cols="30" rows="10" required></textarea>
-            </div>
-            <div class="submit-wrapper">
-                <input type="submit" value="Enviar">
-            </div>
-        </form>
-    </div>
+	<div>
+		<h3>Dejanos tu consulta</h3>
+		<form action="">
+			<div class="f-group">
+				<input type="text" required />
+				<input type="email" required />
+			</div>
+			<div class="f-group">
+				<textarea id="" cols="30" rows="10" required />
+			</div>
+			<div class="submit-wrapper">
+				<input type="submit" value="Enviar" />
+			</div>
+		</form>
+	</div>
 </footer>
 
 <style>
-    header {
-        background-image: url('/assets/images/header-bg.webp');
-    }
+	header {
+		background-image: url('/assets/images/header-bg.webp');
+	}
+
+	.bg-primary {
+		background-color: var(--primary-color);
+	}
+	.bg-secondary {
+		background-color: var(--secondary-color);
+	}
 </style>
