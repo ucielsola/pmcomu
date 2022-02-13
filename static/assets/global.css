@@ -3,8 +3,8 @@
 	font-family: 'Mate SC';
 	font-style: normal;
 	font-weight: 400;
-	src: local(''), url('./assets/fonts//matemate-sc-v19-latin-regular.woff2') format('woff2'),
-		url('./assets/fonts//matemate-sc-v19-latin-regular.woff') format('woff');
+	src: local(''), url('/assets/fonts/mate/mate-sc-v19-latin-regular.woff2') format('woff2'),
+		url('/assets/fonts/mate/mate-sc-v19-latin-regular.woff') format('woff');
 	font-display: swap;
 }
 
@@ -13,8 +13,8 @@
 	font-family: 'Montserrat';
 	font-style: normal;
 	font-weight: 300;
-	src: local(''), url('./assets/fonts/montserrat/montserrat-v23-latin-300.woff2') format('woff2'),
-		url('./assets/fonts/montserrat/montserrat-v23-latin-300.woff') format('woff');
+	src: local(''), url('/assets/fonts/montserrat/montserrat-v23-latin-300.woff2') format('woff2'),
+		url('/assets/fonts/montserrat/montserrat-v23-latin-300.woff') format('woff');
 	font-display: swap;
 }
 /* montserrat-regular - latin */
@@ -23,8 +23,8 @@
 	font-style: normal;
 	font-weight: 400;
 	src: local(''),
-		url('./assets/fonts/montserrat/montserrat-v23-latin-regular.woff2') format('woff2'),
-		url('./assets/fonts/montserrat/montserrat-v23-latin-regular.woff') format('woff');
+		url('/assets/fonts/montserrat/montserrat-v23-latin-regular.woff2') format('woff2'),
+		url('/assets/fonts/montserrat/montserrat-v23-latin-regular.woff') format('woff');
 	font-display: swap;
 }
 /* montserrat-600 - latin */
@@ -32,8 +32,8 @@
 	font-family: 'Montserrat';
 	font-style: normal;
 	font-weight: 600;
-	src: local(''), url('./assets/fonts/montserrat/montserrat-v23-latin-600.woff2') format('woff2'),
-		url('./assets/fonts/montserrat/montserrat-v23-latin-600.woff') format('woff');
+	src: local(''), url('/assets/fonts/montserrat/montserrat-v23-latin-600.woff2') format('woff2'),
+		url('/assets/fonts/montserrat/montserrat-v23-latin-600.woff') format('woff');
 	font-display: swap;
 }
 
@@ -47,8 +47,4 @@
 
 	--border-radius: 7px 7px 7px 7px;
 	--box-shadow: 6px 6px 18px 0px #0000004c;
-}
-
-footer {
-	background-color: var(--highlight);
 }
