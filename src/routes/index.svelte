@@ -1,16 +1,18 @@
 <script>
 	import BottomDivider from '$lib/components/bottomDivider.svelte';
+	import ContactForm from '$lib/components/contactForm.svelte';
 	import EmaiIcon from '$lib/components/emaiIcon.svelte';
+	import Image from '$lib/components/image.svelte';
+	import SiteLogo from '$lib/components/siteLogo.svelte';
 	import TopDivider from '$lib/components/topDivider.svelte';
+	import WhatsappFab from '$lib/components/whatsappFAB.svelte';
 	import WhatsappIcon from '$lib/components/whatsappIcon.svelte';
 </script>
 
+<WhatsappFab />
+
 <header>
-	<img src="/assets/images/logo.webp" alt="PM Logo" />
-	<div class="text-wrapper">
-		<h1>Comunicaciones</h1>
-		<h2>La comunicación constituye y a la vez fluye como la vida.</h2>
-	</div>
+	<SiteLogo />
 	<BottomDivider />
 </header>
 
@@ -27,7 +29,7 @@
 				los públicos que deben recibirlo.
 			</p>
 		</article>
-		<img src="/assets/images/img-1.webp" alt="" />
+		<Image src="/assets/images/img-1.webp" alt="PM Comunicaciones" />
 	</section>
 
 	<section class="bg-primary">
@@ -47,7 +49,7 @@
 				trayectoria.
 			</p>
 		</article>
-		<img src="/assets/images/img-2.webp" alt="" />
+		<Image src="/assets/images/img-2.webp" alt="PM Comunicaciones" />
 	</section>
 
 	<section>
@@ -69,8 +71,8 @@
 				el inglés, alemán o portugués.
 			</p>
 		</article>
-		<img src="/assets/images/img-3.webp" alt="" />
-		<img src="/assets/images/img-4.webp" alt="" />
+		<Image src="/assets/images/img-3.webp" alt="PM Comunicaciones" />
+		<Image src="/assets/images/img-4.webp" alt="PM Comunicaciones" />
 		<article>
 			<h4>Creación, gestión y difusión de contenidos digitales</h4>
 			<ul>
@@ -94,8 +96,8 @@
 				mismas por sus públicos de interés.
 			</p>
 		</article>
-		<img src="/assets/images/img-5.webp" alt="" />
-		<img src="/assets/images/img-6.webp" alt="" />
+		<Image src="/assets/images/img-5.webp" alt="PM Comunicaciones" />
+		<Image src="/assets/images/img-6.webp" alt="PM Comunicaciones" />
 		<article>
 			<h4>Identidad e imagen corporativa</h4>
 			<ul>
@@ -118,8 +120,8 @@
 				difusión adecuados, mensajes concretos y públicos debidamente definidos.
 			</p>
 		</article>
-		<img src="/assets/images/img-7.webp" alt="" />
-		<img src="/assets/images/img-8.webp" alt="" />
+		<Image src="/assets/images/img-7.webp" alt="PM Comunicaciones" />
+		<Image src="/assets/images/img-8.webp" alt="PM Comunicaciones" />
 		<article>
 			<h4>Diseño y desarrollo de estrategia comunicativa</h4>
 			<ul>
@@ -145,7 +147,7 @@
 				filósofos, expertos en comunicación, branding y marketing digital, pensando para vos.
 			</p>
 		</article>
-		<img src="/assets/images/img-9.webp" alt="" />
+		<Image src="/assets/images/img-9.webp" alt="PM Comunicaciones" />
 	</section>
 </main>
 
@@ -166,26 +168,50 @@
 			</li>
 		</ul>
 	</div>
-	<div>
-		<h3>Dejanos tu consulta</h3>
-		<form action="">
-			<div class="f-group">
-				<input type="text" required />
-				<input type="email" required />
-			</div>
-			<div class="f-group">
-				<textarea id="" cols="30" rows="10" required />
-			</div>
-			<div class="submit-wrapper">
-				<input type="submit" value="Enviar" />
-			</div>
-		</form>
-	</div>
+	<ContactForm />
 </footer>
 
 <style>
 	header {
+		position: relative;
+		display: flex;
+		align-items: flex-end;
+		justify-content: center;
+		padding-bottom: 20vh;
+		min-height: 95vh;
 		background-image: url('/assets/images/header-bg.webp');
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-attachment: fixed;
+		background-position: bottom;
+		font-family: var(--title-ff);
+	}
+
+	main {
+		position: relative;
+	}
+	section {
+		padding-block: 2rem;
+		padding-inline: 1.5rem;
+	}
+
+	footer {
+		background-color: var(--highlight);
+	}
+
+	h3 {
+		font-family: var(--title-ff);
+		text-align: center;
+		font-size: 2.5rem;
+		font-weight: 400;
+	}
+	h4,
+	p,
+	ul,
+	a {
+		font-size: 1.125rem;
+		font-weight: 300;
+		font-family: var(--body-ff);
 	}
 
 	.bg-primary {
