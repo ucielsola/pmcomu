@@ -1,40 +1,14 @@
-# create-svelte
+# [PMComunicaciones.com.ar](https://PMComunicaciones.com.ar)
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+### About the project
+My first job as a **web Developer** was at **PM Comunicaciones**. We've been offering WordPress websites and community management services since 2020.
 
-## Creating a project
+I have moved on from WordPress when building landing pages or statics sites that doesn't need a backend, and started using **Svelte** and **Sveltekit** (mainly) to create **ultra-fast** and **super-light** websites.
 
-If you're seeing this, you've probably already done this step. Congrats!
+So, some specs:
+- SSR 
+- Hosted with [Vercel](https://vercel.app)
+- Built with [SvelteKit](https://kit.svelte.dev)
+- Forms submissions handled with [FormSubmit](https://formsubmit.co/)
 
-```bash
-# create a new project in the current directory
-npm init svelte@next
-
-# create a new project in my-app
-npm init svelte@next my-app
-```
-
-> Note: the `@next` is temporary
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs#adapters) for your target environment.
+Want to test it locally? Just **clone** the repo, **run** _npm i_ inside the project's directory, and then **run** _npm run dev_. 
