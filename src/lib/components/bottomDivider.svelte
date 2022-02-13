@@ -16,3 +16,10 @@
 		/></g
 	></svg
 >
+
+<style>
+	svg {
+		position: absolute;
+		bottom: 0;
+	}
+</style>
