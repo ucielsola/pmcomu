@@ -1,8 +1,8 @@
 <div>
 		<h3>Dejanos tu consulta</h3>
-		<form action="">
+		<form action="" id="contact">
 			<div class="f-group">
-				<input type="text" required />
+				<input id="input-name"type="text" required />
 				<input type="email" required />
 			</div>
 			<div class="f-group">
