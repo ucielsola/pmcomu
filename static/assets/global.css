@@ -22,8 +22,7 @@
 	font-family: 'Montserrat';
 	font-style: normal;
 	font-weight: 400;
-	src: local(''),
-		url('/assets/fonts/montserrat/montserrat-v23-latin-regular.woff2') format('woff2'),
+	src: local(''), url('/assets/fonts/montserrat/montserrat-v23-latin-regular.woff2') format('woff2'),
 		url('/assets/fonts/montserrat/montserrat-v23-latin-regular.woff') format('woff');
 	font-display: swap;
 }
@@ -41,10 +40,15 @@
 	--primary-color: #8f8ad1;
 	--secondary-color: #eaf1ef;
 	--highlight: #6d6193;
-
+	--whatsapp: #25d366;
 	--title-ff: 'Mate SC', serif;
-	--body-ff: 'Monteserrat', sans-serif;
+	--body-ff: 'Montserrat', sans-serif;
 
 	--border-radius: 7px 7px 7px 7px;
 	--box-shadow: 6px 6px 18px 0px #0000004c;
+	--easing: cubic-bezier(0.47, 0, 0.745, 0.715);
+}
+
+html {
+	scroll-behavior: smooth;
 }
