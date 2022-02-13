@@ -16,4 +16,10 @@
 		/></g
 	></svg
 >
-x
+
+
+<style>
+	svg {
+		transform: rotateX(180deg);
+	}
+</style>
