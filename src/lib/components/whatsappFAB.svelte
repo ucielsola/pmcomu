@@ -2,7 +2,7 @@
 	import WhatsappIcon from './whatsappIcon.svelte';
 </script>
 
-<button>
+<button title="Contactanos por WhatsApp">
 	<a
 		href="https://web.whatsapp.com/send?phone=541156122325&text="
 		target="_blank"
