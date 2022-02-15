@@ -32,7 +32,7 @@
 		<Image src="/assets/images/img-1.webp" alt="PM Comunicaciones" />
 	</section>
 
-	<section class="bg-primary">
+	<section class="bg-primary reverse">
 		<article>
 			<h3>QUIÉNES SOMOS</h3>
 			<h4>
@@ -191,8 +191,13 @@
 		position: relative;
 	}
 	section {
+		display: flex;
 		padding-block: 2rem;
 		padding-inline: 1.5rem;
+	}
+
+	section.reverse {
+		flex-direction: column-reverse;
 	}
 
 	footer {
@@ -220,5 +225,19 @@
 	}
 	.bg-secondary {
 		background-color: var(--secondary-color);
+	}
+
+	@media screen and (min-width: 1024px) {
+		section {
+			display: flex;
+		}
+
+		section.reverse {
+			flex-direction: row-reverse;
+		}
+
+		article {
+			flex-basis: 50%;
+		}
 	}
 </style>
