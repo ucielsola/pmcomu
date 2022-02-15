@@ -204,6 +204,7 @@
 		text-align: center;
 		font-size: 2.5rem;
 		font-weight: 400;
+		line-height: 1em;
 	}
 	h4,
 	p,
