@@ -1,12 +1,12 @@
 <script>
 	import BottomDivider from '$lib/components/bottomDivider.svelte';
 	import ContactForm from '$lib/components/contactForm.svelte';
-	import EmaiIcon from '$lib/components/emaiIcon.svelte';
+	import FooterLinks from '$lib/components/footerLinks.svelte';
 	import Image from '$lib/components/image.svelte';
 	import SiteLogo from '$lib/components/siteLogo.svelte';
 	import TopDivider from '$lib/components/topDivider.svelte';
 	import WhatsappFab from '$lib/components/whatsappFAB.svelte';
-	import WhatsappIcon from '$lib/components/whatsappIcon.svelte';
+
 
 	import IntersectionObserver from 'svelte-intersection-observer';
 
@@ -44,7 +44,7 @@
 		<Image src="/assets/images/img-1.webp" alt="PM Comunicaciones" />
 	</section>
 
-	<section class="bg-primary">
+	<section class="bg-primary reverse">
 		<article class="margin-left">
 			<h3>QUIÉNES SOMOS</h3>
 			<h4>
@@ -64,7 +64,7 @@
 		<Image src="/assets/images/img-2.webp" alt="PM Comunicaciones" />
 	</section>
 
-	<section>
+	<section class="with-rows">
 		<div class="row">
 			<article class="margin-right">
 				<h3>COMUNICACIÓN DIGITAL</h3>
@@ -84,10 +84,9 @@
 					como el inglés, alemán o portugués.
 				</p>
 			</article>
-			<Image src="/assets/images/img-3.webp" alt="PM Comunicaciones" />
-		</div>
-		<div class="row">
 			<Image src="/assets/images/img-4.webp" alt="PM Comunicaciones" />
+		</div>
+		<div class="row reverse">
 			<article class="margin-left">
 				<h4>Creación, gestión y difusión de contenidos digitales</h4>
 				<ul>
@@ -99,9 +98,10 @@
 					<li>Publicidad en Facebook, Instagram, Google y Linkedin</li>
 				</ul>
 			</article>
+			<Image src="/assets/images/img-3.webp" alt="PM Comunicaciones" />
 		</div>
 	</section>
-	<section class="bg-primary">
+	<section class="bg-primary with-rows">
 		<div class="row">
 			<article class="margin-right">
 				<h3>COMUNICACIÓN EMPRESARIAL</h3>
@@ -115,8 +115,7 @@
 			</article>
 			<Image src="/assets/images/img-5.webp" alt="PM Comunicaciones" />
 		</div>
-		<div class="row">
-			<Image src="/assets/images/img-6.webp" alt="PM Comunicaciones" />
+		<div class="row reverse">
 			<article class="margin-left">
 				<h4>Identidad e imagen corporativa</h4>
 				<ul>
@@ -128,9 +127,10 @@
 					<li>Entrenamiento y coaching en liderazgo</li>
 				</ul>
 			</article>
+			<Image src="/assets/images/img-6.webp" alt="PM Comunicaciones" />
 		</div>
 	</section>
-	<section>
+	<section class="with-rows">
 		<div class="row">
 			<article class="margin-right">
 				<h3>COMUNICACIÓN POLÍTICA</h3>
@@ -143,8 +143,7 @@
 			</article>
 			<Image src="/assets/images/img-7.webp" alt="PM Comunicaciones" />
 		</div>
-		<div class="row">
-			<Image src="/assets/images/img-8.webp" alt="PM Comunicaciones" />
+		<div class="row reverse">
 			<article class="margin-left">
 				<h4>Diseño y desarrollo de estrategia comunicativa</h4>
 				<ul>
@@ -157,6 +156,7 @@
 					<li>Estrategia digital</li>
 				</ul>
 			</article>
+			<Image src="/assets/images/img-8.webp" alt="PM Comunicaciones" />
 		</div>
 	</section>
 	<section class="bg-secondary">
@@ -177,22 +177,10 @@
 
 <footer>
 	<TopDivider />
-	<div>
-		<h3>PM Comunicaciones</h3>
-		<ul>
-			<li>
-				<a href="https://wa.link/bje7mw" target="_blank" rel="noopener nofollower"
-					><WhatsappIcon />+54 9 11 4063-6734</a
-				>
-			</li>
-			<li>
-				<a href="mailto:info@pmcomunicaciones.com.ar" target="_blank" rel="noopener nofollower"
-					><EmaiIcon />info@pmcomunicaciones.com.ar</a
-				>
-			</li>
-		</ul>
+	<div class="footer-content">
+		<FooterLinks />
+		<ContactForm />
 	</div>
-	<ContactForm />
 </footer>
 
 <style>
@@ -222,11 +210,27 @@
 		display: flex;
 		flex-direction: column;
 		padding-block: 2rem;
-		padding-inline: 1.5rem;
+		padding-inline: 1.25rem;
+	}
+
+	.row {
+		display: flex;
+		flex-direction: column;
 	}
 
 	footer {
 		background-color: var(--highlight);
+	}
+
+	.footer-content {
+		display: flex;
+		flex-direction: column-reverse;
+		justify-content: space-evenly;
+		margin-top: 2rem;
+		color: #d6d6d6 !important;
+		font-family: var(--body-ff) !important;
+		max-width: 85vw;
+		margin-inline: auto;
 	}
 
 	h3 {
@@ -239,29 +243,26 @@
 	}
 
 	h4 {
-		padding-block-end: 1.5rem;
+		padding-block: 1.5rem;
 		font-size: 1.07rem;
 		font-weight: 600;
 		font-family: var(--body-ff);
 	}
 
 	p,
-	ul,
-	a {
+	ul {
 		font-size: 1.07rem;
 		font-weight: 300;
 		font-family: var(--body-ff);
 	}
 
-	p {
+	p,
+	ul {
 		padding-block-end: 1.5rem;
 	}
 
-	.margin-right {
-		margin-right: 1.8rem;
-	}
-	.margin-left {
-		margin-left: 1.8rem;
+	ul li::marker {
+		content: '✓';
 	}
 
 	.bg-primary {
@@ -275,6 +276,22 @@
 		section {
 			display: flex;
 			justify-content: center;
+			flex-direction: row;
+		}
+
+		section.with-rows {
+			flex-direction: column;
+		}
+
+		.row {
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+		}
+
+		.reverse {
+			margin-top: 2rem;
+			flex-direction: row-reverse;
 		}
 
 		article {
@@ -288,12 +305,22 @@
 
 		h4 {
 			font-size: 1.37rem;
+			padding-block: 0 1.5rem;
 		}
 
 		p,
-		ul,
-		a {
+		ul {
 			font-size: 1.37rem;
+		}
+		.margin-right {
+			margin-right: 1.8rem;
+		}
+		.margin-left {
+			margin-left: 1.8rem;
+		}
+
+		.footer-content {
+			flex-direction: row;
 		}
 	}
 </style>
