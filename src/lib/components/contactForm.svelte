@@ -5,25 +5,13 @@
 	let hideForm = false;
 	function formSubmit(e) {
 		e.preventDefault();
-		fetch('https://formsubmit.co/ajax/ucielsola@gmail.com', {
+		fetch('https://formcarry.com/s/WGz5awpRkDS', {
 			method: 'POST',
-			headers: {
-				'Content-Type': 'application/json',
-				Accept: 'application/json'
-			},
-			body: JSON.stringify({
-				Nombre: name,
-				eMail: email,
-				Mensaje: message
-			})
+			headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+			body: JSON.stringify({ name: name, email: email, message: message })
 		})
-			.then((response) => response.json())
-			.then((data) => {
-				hideForm = true;
-			})
-			.catch((error) => {
-				console.log(error);
-			});
+			.then((response) => console.log(response))
+			.catch((error) => console.log(error));
 	}
 </script>
 
@@ -111,6 +99,5 @@
 		textarea {
 			width: 100%;
 		}
-		
 	}
 </style>
