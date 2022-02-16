@@ -13,7 +13,8 @@
 
 <style>
 	img {
-		max-width: 100%;
+		max-width: clamp(2rem, 60vw, 320px);
+		margin-inline: auto;
 		border-radius: var(--border-radius);
 		box-shadow: var(--box-shadow);
 		opacity: 0;
