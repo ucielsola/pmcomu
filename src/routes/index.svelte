@@ -7,14 +7,21 @@
 	import TopDivider from '$lib/components/topDivider.svelte';
 	import WhatsappFab from '$lib/components/whatsappFAB.svelte';
 	import WhatsappIcon from '$lib/components/whatsappIcon.svelte';
+
+	import IntersectionObserver from 'svelte-intersection-observer';
+
+	let element;
+	let intersecting;
 </script>
 
 <WhatsappFab />
 
-<header>
-	<SiteLogo />
-	<BottomDivider />
-</header>
+<IntersectionObserver {element} bind:intersecting threshold={0}>
+	<header bind:this={element} class:intersecting>
+		<SiteLogo />
+		<BottomDivider />
+	</header>
+</IntersectionObserver>
 
 <main>
 	<section>
@@ -199,9 +206,13 @@
 		background-image: url('/assets/images/header-bg.webp');
 		background-repeat: no-repeat;
 		background-size: cover;
-		background-attachment: fixed;
+		background-attachment: scroll;
 		background-position: bottom;
 		font-family: var(--title-ff);
+	}
+
+	header.intersecting {
+		background-attachment: fixed;
 	}
 
 	main {
