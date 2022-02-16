@@ -28,7 +28,7 @@
 	h2 {
 		font-style: italic;
 		font-weight: 400;
-		font-size: 0.95rem;
+		font-size: 1.2rem;
 		text-align: center;
 	}
 
