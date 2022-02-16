@@ -13,11 +13,13 @@
 
 <style>
 	img {
-		max-width: clamp(2rem, 60vw, 320px);
+		width: clamp(2rem, 60vw, 320px);
+		max-width: 100%;
 		margin-inline: auto;
 		border-radius: var(--border-radius);
 		box-shadow: var(--box-shadow);
 		opacity: 0;
+		object-fit: cover;
 	}
 
 	img.intersecting {
@@ -38,6 +40,12 @@
 			-webkit-filter: blur(0px);
 			filter: blur(0px);
 			opacity: 1;
+		}
+	}
+
+	@media screen and (min-width: 1024px) {
+		img {
+			margin-inline: 1rem;
 		}
 	}
 </style>
