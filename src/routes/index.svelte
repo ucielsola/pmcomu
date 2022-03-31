@@ -92,7 +92,7 @@
 					<li>Publicidad en Facebook, Instagram, Google y LinkedIn.</li>
 				</ul>
 			</article>
-			<Image src="/assets/images/img-3.webp" alt="PM Comunicaciones" />
+			<Image src="/assets/images/img-3.webp" alt="PM Comunicaciones" limitHeight={true} />
 		</div>
 	</section>
 	<section class="bg-primary with-rows">

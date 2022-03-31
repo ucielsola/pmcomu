@@ -5,10 +5,11 @@
 	let intersecting;
 	export let alt;
 	export let src;
+	export let limitHeight = false;
 </script>
 
 <IntersectionObserver {element} bind:intersecting threshold={0}>
-	<img bind:this={element} {src} {alt} class:intersecting />
+	<img bind:this={element} {src} {alt} class:intersecting class:limitHeight />
 </IntersectionObserver>
 
 <style>
@@ -20,6 +21,10 @@
 		box-shadow: var(--box-shadow);
 		opacity: 0;
 		object-fit: cover;
+	}
+
+	img.limitHeight {
+		max-height: 400px;
 	}
 
 	img.intersecting {
