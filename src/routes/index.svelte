@@ -249,6 +249,7 @@
 	}
 
 	ul li {
+		padding-inline-start: 0.5rem;
 		line-height: 1.8;
 	}
 
@@ -313,6 +314,5 @@
 		.footer-content {
 			flex-direction: row;
 		}
-
 	}
 </style>
