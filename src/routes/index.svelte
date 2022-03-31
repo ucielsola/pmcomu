@@ -20,17 +20,17 @@
 		<article class="margin-right">
 			<h3>Comunicación, Innovación, Estrategia</h3>
 			<p>
-				La comunicación estratégica, integral y orgánica es un intangible que influye en los
-				productos, servicios y crear valor.
+				La comunicación estratégica e integral es un valor intangible que fortalece de manera
+				exponencial el impacto de productos, campañas, servicios o ventas.
 			</p>
 			<p>
-				En el actual contexto volátil e incierto, lleno de complejidad y ambigüedad creciente, el
-				liderazgo, la comunicación y el uso de la tecnología amplían las perspectivas y los
-				aprendizajes de nuevas capacidades, para liderar entornos flexibles y empoderados.
+				En el actual contexto volátil e incierto, de complejidad y ambigüedad creciente, el
+				liderazgo, la comunicación y el uso de la tecnología se posicionan como las herramientas
+				fundamentales para liderar entornos flexibles y empoderados.
 			</p>
 			<p>
-				Creamos y facilitamos para que su mensaje llegue correctamente a los públicos que deben
-				recibirlo.
+				En PM Comunicaciones creamos su mensaje y facilitamos los canales y formatos para que llegue
+				correctamente a los públicos que deben recibirlo.
 			</p>
 		</article>
 		<Image src="/assets/images/img-1.webp" alt="PM Comunicaciones" />
@@ -41,16 +41,16 @@
 			<h3>QUIÉNES SOMOS</h3>
 			<h4>
 				PM Comunicaciones es una empresa de asesoramiento en diseño y ejecución de estrategias de
-				comunicación y liderazgo.
+				comunicación.
 			</h4>
 			<p>
 				Nos dirigimos a marcas, personas en puestos de liderazgo, empresas, organizaciones
 				gubernamentales y no gubernamentales.
 			</p>
 			<p>
-				Somos aliados en el de desafío de fortalecer su identidad, haciendo visible la gestión,
-				cultura, filosofía y responsabilidad social, en definitiva potenciando el valor de la propia
-				trayectoria.
+				Somos aliados en el desafío de fortalecer su identidad, nos encargamos de potenciar el valor
+				de la trayectoria recorrida. Visibilizamos la gestión de calidad, la cultura y la filosofía
+				de su empresa o entidad.
 			</p>
 		</article>
 		<Image src="/assets/images/img-2.webp" alt="PM Comunicaciones" />
@@ -65,15 +65,15 @@
 					comunicación clara y asertiva.
 				</h4>
 				<p>
-					Las Nuevas Tecnologías de la Información cambiaron radicalmente las formas, modos, tiempos
-					y canales de comunicación de las organizaciones y empresas. La comunicación digital es un
-					gran reto, pero también una oportunidad. Se convirtieron en una herramienta eficaz de
-					gestión, innovación, buen servicios y productividad.
+					Las nuevas tecnologías de la información cambiaron radicalmente las formas, tiempos y
+					canales de comunicación de las organizaciones y empresas. Se convirtieron en una
+					herramienta eficaz de gestión, innovación, buenos servicios y productividad. La
+					comunicación digital es un gran reto, pero también una oportunidad.
 				</p>
 				<p>
-					Creamos, organizamos y gestionamos los contenidos para adaptarlos comunicativamente a cada
-					tipo de red social y les damos presencia global con la traducción a diferentes idiomas
-					como el inglés, alemán o portugués.
+					Desde PM Comunicaciones creamos contenidos y los gestionamos para adaptarlos
+					comunicativamente a cada red social. Además, impulsamos su presencia global mediante la
+					traducción a diferentes idiomas: inglés, alemán, y portugués.
 				</p>
 			</article>
 			<Image src="/assets/images/img-4.webp" alt="PM Comunicaciones" />
@@ -82,12 +82,14 @@
 			<article class="margin-left">
 				<h4>Creación, gestión y difusión de contenidos digitales</h4>
 				<ul>
-					<li>Manejo de redes sociales</li>
-					<li>Creación, gestión y difusión de contenidos digitales</li>
-					<li>Desarrollo y diseño de Landing Pages y Webs</li>
-					<li>Diseño y optimización de tiendas online</li>
 					<li>Posicionamiento online de la marca</li>
-					<li>Publicidad en Facebook, Instagram, Google y Linkedin</li>
+					<li>Desarrollo y diseño de Landing Pages y Webs</li>
+					<li>Manejo de redes sociales</li>
+					<li>Diseño y optimización de tiendas online</li>
+					<li>
+						Implementación de ChatBots en WhatsApp. Respuestas automáticas. Contactos ilimitados.
+					</li>
+					<li>Publicidad en Facebook, Instagram, Google y LinkedIn.</li>
 				</ul>
 			</article>
 			<Image src="/assets/images/img-3.webp" alt="PM Comunicaciones" />
@@ -97,12 +99,15 @@
 		<div class="row">
 			<article class="margin-right">
 				<h3>COMUNICACIÓN EMPRESARIAL</h3>
-				<h4>Ayudamos a tu empresa a generar valor sea cual sea el nivel de madurez digital</h4>
+				<h4>Ayudamos a tu empresa a generar valor sea cual sea su nivel de madurez digital.</h4>
 				<p>
-					La visión estratégica de la comunicación corporativa permite la construir la interacción,
-					dialogo y reconocimiento mutuo que incrementa y consolida la imagen y reputación de la
-					empresa u organización. Generamos mayor valor intangible al consolidar la confianza de las
-					mismas por sus públicos de interés.
+					El liderazgo, la comunicación y el uso de la tecnología amplían las perspectivas y los
+					aprendizajes de nuevas capacidades.
+				</p>
+				<p>
+					Nuestra visión estratégica de la comunicación corporativa nos permite construir una
+					interacción y un diálogo fluido con el público, para que la imagen y reputación de la
+					empresa se consoliden.
 				</p>
 			</article>
 			<Image src="/assets/images/img-5.webp" alt="PM Comunicaciones" />
@@ -128,9 +133,13 @@
 				<h3>COMUNICACIÓN POLÍTICA</h3>
 				<h4>Lo que no se comunica, no existe.</h4>
 				<p>
-					Hoy el éxito de cualquier campaña electoral o de política pública se sustenta en el diseño
-					y ejecución de una estrategia de comunicación planificada, con objetivos claros, medios de
-					difusión adecuados, mensajes concretos y públicos debidamente definidos.
+					Hoy el éxito de cualquier campaña electoral o política pública se sustenta en el diseño y
+					ejecución de una estrategia de comunicación planificada.
+				</p>
+				<p>
+					En PM Comunicaciones le brindamos al candidato u entidad un conjunto de acciones pensadas
+					a medida, con ejes y objetivos claros, mensajes concretos, públicos definidos y medios de
+					difusión adecuados.
 				</p>
 			</article>
 			<Image src="/assets/images/img-7.webp" alt="PM Comunicaciones" />
@@ -140,11 +149,11 @@
 				<h4>Diseño y desarrollo de estrategia comunicativa</h4>
 				<ul>
 					<li>Análisis de entorno</li>
-					<li>Liderazgo</li>
 					<li>Manejo y posicionamiento de imagen</li>
 					<li>Estrategia y líneas de comunicación</li>
-					<li>Asesoramiento de prensa</li>
 					<li>Estrategia digital</li>
+					<li>Asesoramiento de prensa</li>
+					<li>Coaching para candidatos y armado de equipos</li>
 				</ul>
 			</article>
 			<Image src="/assets/images/img-8.webp" alt="PM Comunicaciones" />
@@ -154,12 +163,13 @@
 		<article class="margin-right">
 			<h3>TEAM</h3>
 			<h4>
-				Nos reta la creatividad, la innovación, la calidad y entrega de resultados tangibles.
-				Priorizamos el trabajo en equipo como motor del crecimiento y generación de valor.
+				En PM Comunicaciones la creatividad, la innovación, y el servicio de calidad nos
+				caracteriza. Priorizamos el trabajo en equipo como motor de crecimiento y optimizador de
+				resultados.
 			</h4>
 			<p>
-				Somos un equipo interdisciplinario de programadores, músicos, politólogos, lingüistas,
-				filósofos, expertos en comunicación, branding y marketing digital, pensando para vos.
+				Somos un equipo interdisciplinario de jóvenes programadores, músicos, politólogos,
+				filósofos, expertos en comunicación, branding y marketing digital, pensando para usted.
 			</p>
 		</article>
 		<Image src="/assets/images/img-9.webp" alt="PM Comunicaciones" />
