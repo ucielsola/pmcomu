@@ -51,6 +51,7 @@
 
 html {
 	scroll-behavior: smooth;
+	line-height: 1.6;
 }
 
 .fade-out {

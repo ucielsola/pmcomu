@@ -143,7 +143,6 @@
 					<li>Liderazgo</li>
 					<li>Manejo y posicionamiento de imagen</li>
 					<li>Estrategia y líneas de comunicación</li>
-					<li>Estrategia digital</li>
 					<li>Asesoramiento de prensa</li>
 					<li>Estrategia digital</li>
 				</ul>
@@ -201,6 +200,10 @@
 		padding-inline: 1.25rem;
 	}
 
+	article {
+		padding-block: 1.5rem;
+	}
+
 	.row {
 		display: flex;
 		flex-direction: column;
@@ -214,7 +217,7 @@
 		display: flex;
 		flex-direction: column-reverse;
 		justify-content: space-evenly;
-		margin-top: 2rem;
+		margin-blo: 2rem;
 		color: #d6d6d6 !important;
 		font-family: var(--body-ff) !important;
 		max-width: 85vw;
@@ -242,11 +245,11 @@
 		font-size: 1.07rem;
 		font-weight: 300;
 		font-family: var(--body-ff);
+		padding-block-end: 1.5rem;
 	}
 
-	p,
-	ul {
-		padding-block-end: 1.5rem;
+	ul li {
+		line-height: 1.8;
 	}
 
 	ul li::marker {
@@ -278,7 +281,7 @@
 		}
 
 		.reverse {
-			margin-top: 2rem;
+			margin-top: 4rem;
 			flex-direction: row-reverse;
 		}
 
@@ -310,5 +313,6 @@
 		.footer-content {
 			flex-direction: row;
 		}
+
 	}
 </style>
