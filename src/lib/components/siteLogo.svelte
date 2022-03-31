@@ -27,7 +27,7 @@
 
 	h2 {
 		font-family: 'Montserrat';
-		font-style: italic;
+		/* font-style: italic; */
 		font-weight: 400;
 		font-size: 1.1rem;
 		text-align: center;
