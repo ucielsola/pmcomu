@@ -18,7 +18,7 @@
 <main>
 	<section>
 		<article class="margin-right">
-			<h3>Comunicación, Innovación, Estrategia</h3>
+			<h3>COMUNICACIÓN, INNOVACIÓN, ESTRATEGIA</h3>
 			<p>
 				La comunicación estratégica e integral es un valor intangible que fortalece de manera
 				exponencial el impacto de productos, campañas, servicios o ventas.
@@ -113,7 +113,7 @@
 			<Image src="/assets/images/img-5.webp" alt="PM Comunicaciones" />
 		</div>
 		<div class="row reverse">
-			<article class="margin-left">
+			<article class="margin-left more">
 				<h4>Identidad e imagen corporativa</h4>
 				<ul>
 					<li>Desarrollo de marca</li>
@@ -164,15 +164,15 @@
 			<h3>TEAM</h3>
 			<h4>
 				En PM Comunicaciones la creatividad, la innovación, y el servicio de calidad nos
-				caracteriza. Priorizamos el trabajo en equipo como motor de crecimiento y optimizador de
-				resultados.
+				caracteriza.
 			</h4>
 			<p>
+				Priorizamos el trabajo en equipo como motor de crecimiento y optimizador de resultados.
 				Somos un equipo interdisciplinario de jóvenes programadores, músicos, politólogos,
 				filósofos, expertos en comunicación, branding y marketing digital, pensando para usted.
 			</p>
 		</article>
-		<Image src="/assets/images/img-9.webp" alt="PM Comunicaciones" />
+		<Image src="/assets/images/img-9.webp" alt="PM Comunicaciones" limitHeight={true} />
 	</section>
 </main>
 
@@ -262,10 +262,10 @@
 		padding-inline-start: 0.5rem;
 		line-height: 1.8;
 	}
-
+	/* 
 	ul li::marker {
 		content: '✓';
-	}
+	} */
 
 	.bg-primary {
 		background-color: var(--primary-color);
@@ -319,6 +319,10 @@
 		}
 		.margin-left {
 			margin-left: 1.8rem;
+		}
+
+		.margin-left.more {
+			padding-left: 1.8rem;
 		}
 
 		.footer-content {
