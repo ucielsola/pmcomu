@@ -29,7 +29,7 @@
 	}
 	
 	img.evenMoreTiny {
-		max-height: 340px;
+		max-height: 320px;
 	}
 
 	img.intersecting {
