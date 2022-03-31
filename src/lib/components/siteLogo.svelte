@@ -46,7 +46,7 @@
 
 		h2 {
 			text-align: left;
-			font-size: 1.6rem;
+			font-size: 1.55rem;
 		}
 	}
 </style>
