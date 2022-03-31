@@ -145,7 +145,7 @@
 			<Image src="/assets/images/img-7.webp" alt="PM Comunicaciones" />
 		</div>
 		<div class="row reverse">
-			<article class="margin-left">
+			<article class="margin-left more">
 				<h4>Diseño y desarrollo de estrategia comunicativa</h4>
 				<ul>
 					<li>Análisis de entorno</li>

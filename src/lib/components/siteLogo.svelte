@@ -2,7 +2,7 @@
 	<img src="/assets/images/logo.webp" alt="PM Logo" />
 	<div class="text-wrapper">
 		<h1 class="title">Comunicaciones</h1>
-		<h2 class="title">La comunicación constituye y a la vez fluye como la vida.</h2>
+		<h2>La comunicación constituye y a la vez fluye como la vida.</h2>
 	</div>
 </div>
 
@@ -26,9 +26,10 @@
 	}
 
 	h2 {
+		font-family: 'Montserrat';
 		font-style: italic;
 		font-weight: 400;
-		font-size: 1.2rem;
+		font-size: 1.1rem;
 		text-align: center;
 	}
 
@@ -45,7 +46,7 @@
 
 		h2 {
 			text-align: left;
-			font-size: 2rem;
+			font-size: 1.6rem;
 		}
 	}
 </style>
