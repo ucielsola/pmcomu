@@ -172,7 +172,7 @@
 				filósofos, expertos en comunicación, branding y marketing digital, pensando para usted.
 			</p>
 		</article>
-		<Image src="/assets/images/img-9.webp" alt="PM Comunicaciones" limitHeight={true} />
+		<Image src="/assets/images/img-9.webp" alt="PM Comunicaciones" evenMoreTiny={true} />
 	</section>
 </main>
 

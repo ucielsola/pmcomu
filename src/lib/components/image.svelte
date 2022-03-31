@@ -6,10 +6,11 @@
 	export let alt;
 	export let src;
 	export let limitHeight = false;
+	export let evenMoreTiny = false
 </script>
 
 <IntersectionObserver {element} bind:intersecting threshold={0}>
-	<img bind:this={element} {src} {alt} class:intersecting class:limitHeight />
+	<img bind:this={element} {src} {alt} class:intersecting class:limitHeight class:evenMoreTiny />
 </IntersectionObserver>
 
 <style>
@@ -25,6 +26,10 @@
 
 	img.limitHeight {
 		max-height: 400px;
+	}
+	
+	img.evenMoreTiny {
+		max-height: 340px;
 	}
 
 	img.intersecting {
