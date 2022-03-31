@@ -18,7 +18,7 @@
 <main>
 	<section>
 		<article class="margin-right">
-			<h3>COMUNICACIÓN, INNOVACIÓN, ESTRATEGIA</h3>
+			<h3>Comunicación, Innovación, Estrategia</h3>
 			<p>
 				La comunicación estratégica e integral es un valor intangible que fortalece de manera
 				exponencial el impacto de productos, campañas, servicios o ventas.
