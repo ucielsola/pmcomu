@@ -6,18 +6,27 @@
 	import SiteLogo from '$lib/components/siteLogo.svelte';
 	import TopDivider from '$lib/components/topDivider.svelte';
 	import WhatsappFab from '$lib/components/whatsappFAB.svelte';
-
+	import { browser } from '$app/env';
 
 	import IntersectionObserver from 'svelte-intersection-observer';
 
 	let element;
 	let intersecting;
+	let safari = '';
+
+	$: {
+		if (browser) {
+			if (navigator.userAgent.indexOf('Safari') != -1) {
+				safari = 'safari';
+			}
+		}
+	}
 </script>
 
 <WhatsappFab />
 
 <IntersectionObserver {element} bind:intersecting threshold={0}>
-	<header bind:this={element} class:intersecting>
+	<header bind:this={element} class:intersecting class:safari>
 		<SiteLogo />
 		<BottomDivider />
 	</header>
@@ -201,6 +210,10 @@
 
 	header.intersecting {
 		background-attachment: fixed;
+	}
+
+	header.intersecting.safari {
+		background-attachment: scroll;
 	}
 
 	main {
